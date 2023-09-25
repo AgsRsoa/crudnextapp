@@ -113,12 +113,6 @@ export default function Home({notes}:Notes) {
 
   };
 
-  const cancelEdit = () =>{
-    setForm({title: '',content: '', id: ''})
-    setIsEditing(false);
-    setEditNoteId(null);
-  }
-
 
   
 
